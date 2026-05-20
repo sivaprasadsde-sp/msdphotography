@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MSD Photography — Premium portrait, wedding, fashion & nature photography." />
+  <title>MSD Photography — Home</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav class="navbar-lumiere">
+    <a href="index.html" class="nav-brand" style="text-decoration:none;">
+      <span class="nav-brand-name">MSD Photography</span>
+      <span class="nav-brand-tagline">Photography Studio</span>
+    </a>
+
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <span class="hero-eyebrow">Award-Winning Photography Studio</span>
+
+      <h1 class="hero-title">
+        Capturing <em>Light,</em><br>Telling Stories
+      </h1>
+
+      <p class="hero-subtitle">
+        Every frame is a whisper of eternity — crafted with intention,<br>preserved with artistry.
+      </p>
+
+      <div class="hero-cta">
+        <a href="portfolio.html" class="btn-lumiere">
+          <span>View Gallery</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        &nbsp;&nbsp;
+        <a href="about.html" class="btn-lumiere" style="margin-left:0.5rem;">
+          <span>Our Story</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CATEGORIES SECTION
+  ============================================================ -->
+  <section class="categories-section" id="categories">
+    <div class="container">
+      <!-- Heading -->
+      <div class="text-center mb-5 reveal">
+        <span class="section-eyebrow">Specialisations</span>
+        <h2 class="section-heading">What We Shoot</h2>
+        <div class="gold-divider"></div>
+        <p class="section-subtext mt-3">
+          From intimate wedding moments to bold fashion editorials — every genre is approached with the same obsessive attention to light and emotion.
+        </p>
+      </div>
+
+      <!-- Grid -->
+      <div class="category-grid">
+
+        <!-- Wedding -->
+        <div class="category-card reveal reveal-delay-1">
+          <img src="https://images.unsplash.com/photo-1511285560929-80b456503681?w=600&q=80&fit=crop"
+               alt="Wedding Photography" loading="lazy" />
+          <div class="category-info">
+            <span class="category-label">01</span>
+            <div class="category-name">Weddings</div>
+            <span class="category-count">48 Stories Told</span>
+          </div>
+        </div>
+
+        <!-- Fashion -->
+        <div class="category-card reveal reveal-delay-2">
+          <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&q=80&fit=crop"
+               alt="Fashion Photography" loading="lazy" />
+          <div class="category-info">
+            <span class="category-label">02</span>
+            <div class="category-name">Fashion</div>
+            <span class="category-count">120 Editorials</span>
+          </div>
+        </div>
+
+        <!-- Nature -->
+        <div class="category-card reveal reveal-delay-3">
+          <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80&fit=crop"
+               alt="Nature Photography" loading="lazy" />
+          <div class="category-info">
+            <span class="category-label">03</span>
+            <div class="category-name">Nature</div>
+            <span class="category-count">200+ Landscapes</span>
+          </div>
+        </div>
+
+        <!-- Events -->
+        <div class="category-card reveal reveal-delay-4">
+          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80&fit=crop"
+               alt="Events Photography" loading="lazy" />
+          <div class="category-info">
+            <span class="category-label">04</span>
+            <div class="category-name">Events</div>
+            <span class="category-count">80 Occasions</span>
+          </div>
+        </div>
+
+      </div><!-- /.category-grid -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES / PRICING SECTION
+  ============================================================ -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <!-- Heading -->
+      <div class="text-center mb-5 reveal">
+        <span class="section-eyebrow">Packages & Pricing</span>
+        <h2 class="section-heading">Tailored for Every Vision</h2>
+        <div class="gold-divider"></div>
+        <p class="section-subtext mt-3">
+          Transparent, flexible packages designed to deliver extraordinary results — whatever the occasion.
+        </p>
+      </div>
+
+      <!-- Cards -->
+      <div class="pricing-cards">
+
+        <!-- Essential -->
+        <div class="pricing-card reveal reveal-delay-1">
+          <span class="pricing-tier">Essential</span>
+          <div class="pricing-name">Portrait Session</div>
+          <div class="pricing-price"><sup>₹</sup>15000</div>
+          <span class="pricing-period">Per Session • 2 Hours</span>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li><span class="check">✦</span> 2-hour on-location shoot</li>
+            <li><span class="check">✦</span> 30 edited high-res images</li>
+            <li><span class="check">✦</span> Private online gallery</li>
+            <li><span class="check">✦</span> 1 outfit / look</li>
+            <li><span class="check">✦</span> Digital delivery in 7 days</li>
+          </ul>
+          <a href="#contact" class="btn-lumiere w-100 justify-content-center"><span>Book Now</span></a>
+        </div>
+
+        <!-- Signature (featured) -->
+        <div class="pricing-card featured reveal reveal-delay-2">
+          <span class="pricing-badge">Most Popular</span>
+          <span class="pricing-tier">Signature</span>
+          <div class="pricing-name">Wedding Coverage</div>
+          <div class="pricing-price"><sup>₹</sup>49,999</div>
+          <span class="pricing-period">Full Day • 10 Hours</span>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li><span class="check">✦</span> Full-day coverage (10 hrs)</li>
+            <li><span class="check">✦</span> 500+ edited images</li>
+            <li><span class="check">✦</span> 2 photographers</li>
+            <li><span class="check">✦</span> Engagement session included</li>
+            <li><span class="check">✦</span> Premium printed album</li>
+            <li><span class="check">✦</span> Delivery in 4 weeks</li>
+          </ul>
+          <a href="#contact" class="btn-lumiere-solid btn-lumiere w-100 justify-content-center"><span>Book Now</span></a>
+        </div>
+
+        <!-- Elite -->
+        <div class="pricing-card reveal reveal-delay-3">
+          <span class="pricing-tier">Elite</span>
+          <div class="pricing-name">Fashion Editorial</div>
+          <div class="pricing-price"><sup>₹</sup>29,999</div>
+          <span class="pricing-period">Half Day • 5 Hours</span>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li><span class="check">✦</span> 5-hour studio / location</li>
+            <li><span class="check">✦</span> 80 edited editorial images</li>
+            <li><span class="check">✦</span> Professional styling consult</li>
+            <li><span class="check">✦</span> Up to 3 looks</li>
+            <li><span class="check">✦</span> Commercial usage license</li>
+          </ul>
+          <a href="#contact" class="btn-lumiere w-100 justify-content-center"><span>Book Now</span></a>
+        </div>
+
+      </div><!-- /.pricing-cards -->
+
+      <!-- Custom note -->
+      <p class="text-center mt-5 reveal" style="font-size:0.85rem;color:var(--clr-text-muted);">
+        Need something bespoke? <a href="#contact" style="color:var(--clr-gold);border-bottom:1px solid var(--clr-gold-dark);">Let's talk</a> — we love custom projects.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS SECTION
+  ============================================================ -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <!-- Heading -->
+      <div class="text-center mb-5 reveal">
+        <span class="section-eyebrow">Client Stories</span>
+        <h2 class="section-heading">Words That Mean the World</h2>
+        <div class="gold-divider"></div>
+      </div>
+
+      <!-- Bootstrap 5 Carousel -->
+      <div id="testimonialCarousel" class="carousel slide reveal" data-bs-ride="carousel" data-bs-interval="6000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+              </div>
+              <p class="testimonial-quote">
+                "MSD Photography didn't just photograph our wedding — they preserved the emotion of every single moment. Looking at the photos feels like stepping back into that day. Absolutely transcendent work."
+              </p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=100&q=80&fit=crop&crop=face"
+                     alt="Sofia & James" class="testimonial-avatar" />
+                <div>
+                  <span class="testimonial-author-name">Sofia & James Whitmore</span>
+                  <span class="testimonial-author-role">Wedding Clients — Tuscany, Italy</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+              </div>
+              <p class="testimonial-quote">
+                "The fashion editorial exceeded every expectation. Each frame told a story. Our campaign engagement doubled — a direct result of the imagery quality. We'll never work with anyone else."
+              </p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80&fit=crop&crop=face"
+                     alt="Naomi Blackwell" class="testimonial-avatar" />
+                <div>
+                  <span class="testimonial-author-name">Naomi Blackwell</span>
+                  <span class="testimonial-author-role">Creative Director — NOIR Fashion House</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+              </div>
+              <p class="testimonial-quote">
+                "My portrait session was deeply personal, and the photographer made me feel completely at ease. The resulting images are the most beautiful photographs ever taken of me. Pure artistry."
+              </p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80&fit=crop&crop=face"
+                     alt="Amara Osei" class="testimonial-avatar" />
+                <div>
+                  <span class="testimonial-author-name">Amara Osei</span>
+                  <span class="testimonial-author-role">Portrait Client — New York</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="carousel-item">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+              </div>
+              <p class="testimonial-quote">
+                "Our annual gala had over 400 guests and MSD Photography captured every critical moment flawlessly. The turnaround was fast and the quality immaculate. Highly recommend for corporate events."
+              </p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80&fit=crop&crop=face"
+                     alt="David Chen" class="testimonial-avatar" />
+                <div>
+                  <span class="testimonial-author-name">David Chen</span>
+                  <span class="testimonial-author-role">Events Manager — Meridian Corp</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /.carousel-inner -->
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <i class="fa-solid fa-chevron-left" style="color:var(--clr-cream);font-size:0.8rem;"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <i class="fa-solid fa-chevron-right" style="color:var(--clr-cream);font-size:0.8rem;"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><!-- /#testimonialCarousel -->
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <!-- Heading -->
+      <div class="text-center mb-5 reveal">
+        <span class="section-eyebrow">Get in Touch</span>
+        <h2 class="section-heading">Let's Create Together</h2>
+        <div class="gold-divider"></div>
+        <p class="section-subtext mt-3">
+          Ready to capture something extraordinary? Reach out and let's start the conversation.
+        </p>
+      </div>
+
+      <div class="row g-5 align-items-start">
+
+        <!-- Contact Info -->
+        <div class="col-lg-4 reveal reveal-delay-1">
+
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <span class="contact-label">Phone</span>
+              <span class="contact-value">+91 90123 45678</span>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">msdphotography@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <span class="contact-label">Studio</span>
+              <span class="contact-value">Nearby, Ustreet, VZM</span>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <span class="contact-label">Hours</span>
+              <span class="contact-value">Mon – Sat: 9am – 7pm</span>
+            </div>
+          </div>
+
+          <!-- Social links -->
+          <div class="mt-4">
+            <span class="section-eyebrow" style="display:block;margin-bottom:1rem;">Follow Our Work</span>
+            <div class="footer-socials">
+              <a href="#" class="footer-social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="footer-social-link" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+              <a href="#" class="footer-social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" class="footer-social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-8 reveal reveal-delay-2">
+          <form id="contactForm" class="contact-form" novalidate>
+
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="Alexandra Monroe" required />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="hello@youremail.com" required />
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+91 90123 45678" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="service">Service Interested In</label>
+                  <select id="service" name="service">
+                    <option value="" disabled selected>Select a package...</option>
+                    <option value="Portrait Session">Portrait Session — $299</option>
+                    <option value="Wedding Coverage">Wedding Coverage — $1,499</option>
+                    <option value="Fashion Editorial">Fashion Editorial — $899</option>
+                    <option value="Events Photography">Events Photography</option>
+                    <option value="Custom Project">Custom Project</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5"
+                placeholder="Tell us about your vision, preferred dates, location, or any special requirements..."></textarea>
+            </div>
+
+            <!-- Submit → WhatsApp -->
+            <button type="submit" class="btn-lumiere-solid btn-lumiere mt-2">
+              <i class="fa-brands fa-whatsapp" style="font-size:1rem;"></i>
+              <span>Send via WhatsApp</span>
+            </button>
+
+            <p style="font-size:0.72rem;color:var(--clr-text-faint);margin-top:1rem;">
+              <i class="fa-solid fa-lock" style="color:var(--clr-gold-dark);margin-right:4px;"></i>
+              Your details are private and will only be used to respond to your enquiry.
+            </p>
+          </form>
+        </div>
+
+      </div><!-- /.row -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-5">
+
+        <!-- Brand -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand-name">MSD Photography</div>
+          <div class="footer-brand-tag">Photography Studio</div>
+          <p class="footer-bio">
+            We believe every photograph should stop time. Based in New York, shooting worldwide — wherever light and story collide.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="footer-social-link" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#" class="footer-social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="footer-social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="footer-social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-heading">Navigate</div>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-heading">Services</div>
+          <ul class="footer-links">
+            <li><a href="portfolio.html">Wedding Photography</a></li>
+            <li><a href="portfolio.html">Fashion Editorials</a></li>
+            <li><a href="portfolio.html">Portrait Sessions</a></li>
+            <li><a href="portfolio.html">Nature & Landscape</a></li>
+            <li><a href="portfolio.html">Corporate Events</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-heading">Find Us</div>
+          <ul class="footer-links">
+            <li><a href="mailto:msdphotography@gmail.com"><i class="fa-solid fa-envelope" style="width:16px;color:var(--clr-gold-dark);margin-right:6px;"></i>msdphotography@gmail.com</a></li>
+            <li><a href="tel:+15550123456"><i class="fa-solid fa-phone" style="width:16px;color:var(--clr-gold-dark);margin-right:6px;"></i>+1 (555) 012-3456</a></li>
+            <li style="color:var(--clr-text-muted);font-size:0.85rem;"><i class="fa-solid fa-location-dot" style="width:16px;color:var(--clr-gold-dark);margin-right:6px;"></i>24 Artisan Lane, NY 10001</li>
+          </ul>
+        </div>
+
+      </div><!-- /.row -->
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <span class="footer-copy">
+          &copy; 2024 <span>MSD Photography Studio</span>. All rights reserved.
+        </span>
+        <div style="display:flex;gap:1.5rem;">
+          <a href="#" style="font-size:0.75rem;color:var(--clr-text-faint);">Privacy Policy</a>
+          <a href="#" style="font-size:0.75rem;color:var(--clr-text-faint);">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/15550123456?text=Hello%20MsdPhotography!%20I'd%20like%20to%20enquire%20about%20your%20photography%20services."
+     class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>

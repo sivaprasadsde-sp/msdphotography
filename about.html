@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About Lumière Photography — The story, vision and craft behind the lens." />
+  <title>About — Lumière Photography</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav class="navbar-lumiere">
+    <a href="index.html" class="nav-brand" style="text-decoration:none;">
+      <span class="nav-brand-name">Lumière</span>
+      <span class="nav-brand-tagline">Photography Studio</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="index.html#services">Services</a>
+    <a href="index.html#contact">Contact</a>
+  </div>
+
+  <!-- ============================================================
+       PAGE HERO
+  ============================================================ -->
+  <section class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1600&q=80&fit=crop');"></div>
+    <div class="container page-hero-content">
+      <span class="section-eyebrow">The Photographer</span>
+      <h1 class="page-hero-title">Our Story</h1>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       MAIN ABOUT SECTION — 2-column layout
+  ============================================================ -->
+  <section class="about-section">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+
+        <!-- LEFT — Photographer Photo -->
+        <div class="col-lg-5 reveal">
+          <div class="about-photo-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=700&q=80&fit=crop&crop=top"
+              alt="Elena Vasquez — Lead Photographer"
+              class="about-photo"
+            />
+            <!-- Decorative border offset -->
+            <div class="about-photo-accent"></div>
+            <!-- Experience badge -->
+            <div class="about-exp-badge">
+              <span class="about-exp-num">12</span>
+              <span class="about-exp-label">Years of<br>Experience</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT — Biography & Story -->
+        <div class="col-lg-7 reveal reveal-delay-2">
+          <div class="about-bio">
+            <span class="section-eyebrow">My Story</span>
+            <h2 class="section-heading" style="text-align:left;">
+              Michael Shekhar
+            </h2>
+            <div class="gold-divider left"></div>
+
+            <p style="color:var(--clr-text-muted);font-size:0.95rem;line-height:1.9;margin-top:1.5rem;">
+              Photography found me before I found it. Growing up in Barcelona, I was captivated by the way golden-hour light painted the streets, how a single ray through a cathedral window could hold the weight of centuries. I picked up my first camera at sixteen and haven't put it down since.
+            </p>
+            <p style="color:var(--clr-text-muted);font-size:0.95rem;line-height:1.9;margin-top:1rem;">
+              After completing my BFA in Visual Arts at the School of the Art Institute of Chicago, I apprenticed under world-renowned portrait photographer <strong style="color:var(--clr-cream);">Marcus Delacroix</strong> in Paris for three years. His philosophy — that the greatest portraits are conversations, not captures — became the foundation of everything I do.
+            </p>
+            <p style="color:var(--clr-text-muted);font-size:0.95rem;line-height:1.9;margin-top:1rem;">
+              Today, Lumière Photography serves clients across New York, London, Paris, and beyond. I lead a team of three dedicated photographers, each trained to approach every frame with patience, intention, and profound respect for the moment.
+            </p>
+
+            <!-- Signature Quote -->
+            <blockquote class="about-quote">
+              "Light is the language. Emotion is the story. Every photograph I take is a bridge between the two."
+              <footer style="font-size:0.75rem;letter-spacing:0.15em;color:var(--clr-gold-dark);margin-top:0.5rem;">— Elena Vasquez</footer>
+            </blockquote>
+
+            <!-- Stats -->
+            <div class="about-stats">
+              <div class="about-stat">
+                <span class="about-stat-num" data-count="450" data-suffix="+">450+</span>
+                <span class="about-stat-label">Sessions Completed</span>
+              </div>
+              <div class="about-stat">
+                <span class="about-stat-num" data-count="98" data-suffix="%">98%</span>
+                <span class="about-stat-label">Client Satisfaction</span>
+              </div>
+              <div class="about-stat">
+                <span class="about-stat-num" data-count="18" data-suffix="">18</span>
+                <span class="about-stat-label">Awards Won</span>
+              </div>
+            </div>
+
+            <a href="index.html#contact" class="btn-lumiere mt-2">
+              <span>Work With Me</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+      </div><!-- /.row -->
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ACHIEVEMENTS / AWARDS SECTION
+  ============================================================ -->
+  <section style="background:var(--clr-bg-alt);padding:var(--section-pad);">
+    <div class="container">
+
+      <div class="text-center mb-5 reveal">
+        <span class="section-eyebrow">Recognition</span>
+        <h2 class="section-heading">Awards & Press</h2>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="row g-4 reveal">
+        <!-- Award Items -->
+        <div class="col-md-6 col-lg-3">
+          <div class="award-item">
+            <i class="fa-solid fa-trophy"></i>
+            <div>
+              <strong style="color:var(--clr-cream);font-size:0.85rem;">Wedding Photographer of the Year</strong>
+              <span style="display:block;font-size:0.72rem;color:var(--clr-text-faint);">WPJA — 2023</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="award-item">
+            <i class="fa-solid fa-star"></i>
+            <div>
+              <strong style="color:var(--clr-cream);font-size:0.85rem;">Top 10 Fashion Photographers</strong>
+              <span style="display:block;font-size:0.72rem;color:var(--clr-text-faint);">Vogue Italia — 2022</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="award-item">
+            <i class="fa-solid fa-medal"></i>
+            <div>
+              <strong style="color:var(--clr-cream);font-size:0.85rem;">Gold Medal — Portrait Category</strong>
+              <span style="display:block;font-size:0.72rem;color:var(--clr-text-faint);">IPA — 2021</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="award-item">
+            <i class="fa-solid fa-newspaper"></i>
+            <div>
+              <strong style="color:var(--clr-cream);font-size:0.85rem;">Featured — The New Yorker</strong>
+              <span style="display:block;font-size:0.72rem;color:var(--clr-text-faint);">Photography Issue — 2022</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="award-item">
+            <i class="fa-solid fa-camera"></i>
+            <div>
+              <strong style="color:var(--clr-cream);font-size:0.85rem;">Nikon Ambassador</strong>
+              <span style="display:block;font-size:0.72rem;color:var(--clr-text-faint);">Since 2020</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="award-item">
+            <i class="fa-solid fa-award"></i>
+            <div>
+              <strong style="color:var(--clr-cream);font-size:0.85rem;">Best Emerging Studio</strong>
+              <span style="display:block;font-size:0.72rem;color:var(--clr-text-faint);">PDN — 2019</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="award-item">
+            <i class="fa-solid fa-book-open"></i>
+            <div>
+              <strong style="color:var(--clr-cream);font-size:0.85rem;">Solo Exhibition — MoMA</strong>
+              <span style="display:block;font-size:0.72rem;color:var(--clr-text-faint);">New York — 2023</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="award-item">
+            <i class="fa-solid fa-globe"></i>
+            <div>
+              <strong style="color:var(--clr-cream);font-size:0.85rem;">International Photo Award</strong>
+              <span style="display:block;font-size:0.72rem;color:var(--clr-text-faint);">Nature Category — 2020</span>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.row -->
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROCESS SECTION
+  ============================================================ -->
+  <section style="background:var(--clr-bg);padding:var(--section-pad);">
+    <div class="container">
+
+      <div class="text-center mb-5 reveal">
+        <span class="section-eyebrow">How We Work</span>
+        <h2 class="section-heading">The Lumière Process</h2>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-3 reveal reveal-delay-1">
+          <div style="padding:2rem;background:var(--clr-surface);border:1px solid var(--clr-border);height:100%;">
+            <div style="font-family:var(--font-display);font-size:3rem;color:var(--clr-gold);opacity:0.3;line-height:1;margin-bottom:1rem;">01</div>
+            <h4 style="font-family:var(--font-display);color:var(--clr-cream);font-size:1.2rem;margin-bottom:0.75rem;">Consultation</h4>
+            <p style="font-size:0.85rem;color:var(--clr-text-muted);line-height:1.8;">We begin with a deep conversation about your vision, values, and what this session means to you.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 reveal reveal-delay-2">
+          <div style="padding:2rem;background:var(--clr-surface);border:1px solid var(--clr-border);height:100%;">
+            <div style="font-family:var(--font-display);font-size:3rem;color:var(--clr-gold);opacity:0.3;line-height:1;margin-bottom:1rem;">02</div>
+            <h4 style="font-family:var(--font-display);color:var(--clr-cream);font-size:1.2rem;margin-bottom:0.75rem;">Creative Planning</h4>
+            <p style="font-size:0.85rem;color:var(--clr-text-muted);line-height:1.8;">We scout locations, plan lighting, mood boards, and timelines to ensure every detail is intentional.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 reveal reveal-delay-3">
+          <div style="padding:2rem;background:var(--clr-surface);border:1px solid var(--clr-border);height:100%;border-top:2px solid var(--clr-gold-dark);">
+            <div style="font-family:var(--font-display);font-size:3rem;color:var(--clr-gold);opacity:0.3;line-height:1;margin-bottom:1rem;">03</div>
+            <h4 style="font-family:var(--font-display);color:var(--clr-cream);font-size:1.2rem;margin-bottom:0.75rem;">The Shoot</h4>
+            <p style="font-size:0.85rem;color:var(--clr-text-muted);line-height:1.8;">This is where magic happens. We create a calm, creative atmosphere that lets authenticity shine through.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 reveal reveal-delay-4">
+          <div style="padding:2rem;background:var(--clr-surface);border:1px solid var(--clr-border);height:100%;">
+            <div style="font-family:var(--font-display);font-size:3rem;color:var(--clr-gold);opacity:0.3;line-height:1;margin-bottom:1rem;">04</div>
+            <h4 style="font-family:var(--font-display);color:var(--clr-cream);font-size:1.2rem;margin-bottom:0.75rem;">Delivery</h4>
+            <p style="font-size:0.85rem;color:var(--clr-text-muted);line-height:1.8;">Meticulously edited images delivered through a private, beautiful online gallery — yours to cherish forever.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA BAND
+  ============================================================ -->
+  <section style="background:linear-gradient(135deg,#0d0d0d 0%,#1a1509 100%);padding:5rem 0;border-top:1px solid var(--clr-border);border-bottom:1px solid var(--clr-border);">
+    <div class="container text-center reveal">
+      <span class="section-eyebrow">Ready to Begin?</span>
+      <h2 class="section-heading" style="margin-bottom:1.5rem;">Your Story Deserves to Be Told</h2>
+      <div class="gold-divider"></div>
+      <p class="section-subtext mt-3 mb-4">Every great photograph starts with a single conversation. Let's have ours.</p>
+      <a href="index.html#contact" class="btn-lumiere-solid btn-lumiere">
+        <span>Book a Consultation</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand-name">Lumière</div>
+          <div class="footer-brand-tag">Photography Studio</div>
+          <p class="footer-bio">We believe every photograph should stop time. Based in New York, shooting worldwide.</p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="footer-social-link" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#" class="footer-social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="footer-social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-heading">Navigate</div>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-heading">Services</div>
+          <ul class="footer-links">
+            <li><a href="portfolio.html">Wedding Photography</a></li>
+            <li><a href="portfolio.html">Fashion Editorials</a></li>
+            <li><a href="portfolio.html">Portrait Sessions</a></li>
+            <li><a href="portfolio.html">Nature & Landscape</a></li>
+            <li><a href="portfolio.html">Corporate Events</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-heading">Find Us</div>
+          <ul class="footer-links">
+            <li><a href="mailto:hello@lumiere.studio"><i class="fa-solid fa-envelope" style="width:16px;color:var(--clr-gold-dark);margin-right:6px;"></i>hello@lumiere.studio</a></li>
+            <li><a href="tel:+15550123456"><i class="fa-solid fa-phone" style="width:16px;color:var(--clr-gold-dark);margin-right:6px;"></i>+1 (555) 012-3456</a></li>
+            <li style="color:var(--clr-text-muted);font-size:0.85rem;"><i class="fa-solid fa-location-dot" style="width:16px;color:var(--clr-gold-dark);margin-right:6px;"></i>24 Artisan Lane, NY 10001</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2024 <span>Lumière Photography Studio</span>. All rights reserved.</span>
+        <div style="display:flex;gap:1.5rem;">
+          <a href="#" style="font-size:0.75rem;color:var(--clr-text-faint);">Privacy Policy</a>
+          <a href="#" style="font-size:0.75rem;color:var(--clr-text-faint);">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/15550123456?text=Hello%20Lumière!%20I'd%20like%20to%20enquire%20about%20your%20photography%20services."
+     class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
