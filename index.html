@@ -89,6 +89,10 @@
     </div>
   </section>
 
+    <!-- ============================================================
+       Author Logo, Client name & QR code
+  ============================================================ -->
+  
   <style>
     /* Absolute utility to force state regardless of Bootstrap rules */
     .completely-hidden {
@@ -96,30 +100,29 @@
     }
   </style>
 
-
   <div class="container my-5">
     <div class="row">
       
       <!-- Column 1: Always Visible Image (1:1 Ratio) -->
-      <div class="col-6">
+      <div class="col-6 p-5">
         <div class="ratio ratio-1x1 bg-light border rounded overflow-hidden">
-          <img src="https://dummyimage.com/400x400/000/fff" class="img-fluid object-fit-cover" alt="Visible Image">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL5lLTpYYKSeNU5mrLNOdHmxOcgEYnrJd08EB7FD80_jsHugPLZmO4cBdZbDakW07XfO4l6dIakHPcE3SR8za9pSPlwiv_V18Lmk8YEDDxsDPWCcEAqD0hRG0NHM4cao0_Xdr4hp1JOcJcccBbEDSV-qND-EzmbMYoXIlTdcCL0i32jJ3ncDL5WkZdNRjf/s600/6182.jpg" class="img-fluid object-fit-cover" alt="Visible Image">
         </div>
       </div>
 
       <!-- Column 2: Strictly Covered Until Button Click (1:1 Ratio) -->
-      <div class="col-6">
+      <div class="col-6 p-5">
         
         <!-- STATE 1: Default layout displaying only the button screen -->
         <div id="hiddenState" class="ratio ratio-1x1 bg-secondary border rounded text-center position-relative">
           <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-dark bg-opacity-75">
-            <button id="revealBtn" class="btn btn-primary shadow fw-bold">Reveal Image</button>
+            <button id="revealBtn" class="btn btn-primary shadow fw-bold">Simhadrappanna 2026</button>
           </div>
         </div>
 
         <!-- STATE 2: Actual image screen completely deactivated from DOM on start -->
         <div id="visibleState" class="ratio ratio-1x1 border rounded overflow-hidden completely-hidden">
-          <img src="https://dummyimage.com/400x400/000/fff" class="img-fluid object-fit-cover" alt="Hidden Image">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR8p91eOSyjH9V8_AbK6WKy_Zi2twmA2qvSpY1_iAtt9mB6Rs81X9q5NRn3qFT7ZztY9dQ1bKhbg5ZHnQTVOUNZvZzuRMZvoZI0ciKUfP0lkoBdZ7wSKIW3BFpIcOY6CkqTqzHNq0B1jP_lpLf7n9NqtKf-3YB4Ulo9RAsYoODQGPlQ4Am9-Haaiy6QiKl/s812/6199.jpg" class="img-fluid object-fit-cover" alt="Hidden Image">
         </div>
 
       </div>
@@ -137,7 +140,6 @@
       document.getElementById('visibleState').classList.remove('completely-hidden');
     });
   </script>
-
 
   <!-- ============================================================
        CATEGORIES SECTION
