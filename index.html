@@ -89,6 +89,56 @@
     </div>
   </section>
 
+  <style>
+    /* Absolute utility to force state regardless of Bootstrap rules */
+    .completely-hidden {
+      display: none !important;
+    }
+  </style>
+
+
+  <div class="container my-5">
+    <div class="row">
+      
+      <!-- Column 1: Always Visible Image (1:1 Ratio) -->
+      <div class="col-6">
+        <div class="ratio ratio-1x1 bg-light border rounded overflow-hidden">
+          <img src="https://dummyimage.com/400x400/000/fff" class="img-fluid object-fit-cover" alt="Visible Image">
+        </div>
+      </div>
+
+      <!-- Column 2: Strictly Covered Until Button Click (1:1 Ratio) -->
+      <div class="col-6">
+        
+        <!-- STATE 1: Default layout displaying only the button screen -->
+        <div id="hiddenState" class="ratio ratio-1x1 bg-secondary border rounded text-center position-relative">
+          <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-dark bg-opacity-75">
+            <button id="revealBtn" class="btn btn-primary shadow fw-bold">Reveal Image</button>
+          </div>
+        </div>
+
+        <!-- STATE 2: Actual image screen completely deactivated from DOM on start -->
+        <div id="visibleState" class="ratio ratio-1x1 border rounded overflow-hidden completely-hidden">
+          <img src="https://dummyimage.com/400x400/000/fff" class="img-fluid object-fit-cover" alt="Hidden Image">
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  
+  <!-- State Toggle Script -->
+  <script>
+    document.getElementById('revealBtn').addEventListener('click', function() {
+      // 1. Permanently remove the button screen from display
+      document.getElementById('hiddenState').classList.add('completely-hidden');
+      
+      // 2. Bring the actual image element into view
+      document.getElementById('visibleState').classList.remove('completely-hidden');
+    });
+  </script>
+
+
   <!-- ============================================================
        CATEGORIES SECTION
   ============================================================ -->
